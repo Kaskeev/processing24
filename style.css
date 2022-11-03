@@ -1,0 +1,598 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  font-style: normal;
+  outline: none;
+  list-style-type: none;
+}
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+/* Header Top */
+.header {
+}
+.header__block {
+}
+.header__block-top {
+  display: flex;
+  height: 78px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__top-logo {
+  width: 220px;
+  height: 45px;
+}
+.header__logo-img {
+  width: 100%;
+  height: 100%;
+}
+.header__block-right {
+  display: flex;
+  align-items: center;
+}
+.header__top-number {
+  margin-right: 35px;
+  display: flex;
+}
+.header__number-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+.header__number-phone {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.header__top-feedback {
+  display: flex;
+}
+.header__feedback-btn {
+  cursor: pointer;
+  background: #098fcf;
+  padding: 16px 36px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+}
+.btn__user::before {
+  position: absolute;
+  content: url(./assets/user.svg);
+  top: 14px;
+  left: 14px;
+  width: 20px;
+  height: 20px;
+}
+.btn__user {
+  padding: 14px 14px 16px 44px;
+}
+/* Header Bottom */
+.header__block-bottom {
+  width: 80%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.header__bottom-list {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.header__list-link {
+  position: relative;
+  cursor: pointer;
+}
+.header__link-btn {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  background: none;
+}
+.header__link::after {
+  content: url(./assets/arrow.svg);
+  position: absolute;
+  top: 0px;
+  right: -30px;
+  width: 20px;
+  height: 20px;
+}
+/* Доставка топлива */
+.delivery {
+  margin-top: 90px;
+}
+.delivery__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #000000;
+  margin-bottom: 48px;
+}
+.delivery__block {
+  padding: 49px 192px 43px 96px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+}
+.delivery__block-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.delivery__block-title span {
+  color: #098fcf;
+}
+.delivery__block-form {
+  width: 85%;
+}
+.delivery__block-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.delivery__flex-inp {
+  display: flex;
+  flex-direction: column;
+}
+.label__form {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+.delivery__form-input {
+  background: #ffffff;
+  border: 1px solid #d5d5d5;
+  padding: 13px 15px;
+  margin-top: 8px;
+  width: 258px;
+}
+.delivery__form-btn {
+  background: #098fcf;
+  padding: 12px 68px;
+  align-items: center;
+  margin-top: 24px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+}
+.input__checkbox {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+#checkbox {
+  margin-right: 16px;
+  background: #f9f9f9;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #d5d5d5;
+  cursor: pointer;
+}
+.input__checkbox label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+/* Таблица */
+.table__block {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+.title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+table {
+  border-collapse: collapse;
+  color: #0c213b;
+  width: 100%;
+}
+.table__top {
+  background: #043c77;
+}
+th {
+}
+td {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 16px 30px;
+  color: #000000;
+  border-right: 1px solid #e7e7e7;
+}
+tr {
+  border: 1px solid #e7e7e7;
+}
+.first {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+  border: none;
+  text-align: start;
+  padding-left: 30px;
+}
+.first__block {
+  padding: 20px;
+}
+.second {
+  margin-top: 20px;
+  background: #098fcf;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 16px 20px;
+  color: #ffffff;
+  border: 1px solid #e7e7e7;
+}
+/* Топливо с доставкой */
+.slider {
+  position: relative;
+  background: #f4f4f4;
+  border-radius: 8px;
+  width: 100%;
+  height: 18px;
+}
+#fader {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  top: -15px;
+  background: #098fcf;
+  -webkit-appearance: none;
+  border-radius: 4px;
+}
+#fader::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #098fcf;
+  box-shadow: 0 0 2px;
+  cursor: pointer;
+}
+.slider {
+}
+.section__content-choose {
+  width: 100%;
+}
+.section__link-arrow::after {
+  position: absolute;
+  content: url(./assets/arrow.svg);
+  top: 15px;
+  right: 10px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  width: 15px;
+  height: 40px;
+}
+.section {
+  width: 100%;
+  padding-top: 74px;
+  padding-bottom: 73px;
+  background: #f9f9f9;
+}
+.section__block {
+  display: flex;
+  justify-content: space-between;
+}
+.section__block-title {
+  padding-top: 74px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 34px;
+}
+.section__block-form {
+  width: 409px;
+}
+.section__form-content {
+  display: block;
+  position: relative;
+  height: 70px;
+  margin-bottom: 20px;
+}
+.section__label {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+.section__choose-list {
+  position: relative;
+}
+.section__list-item {
+  display: inline-block;
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  height: 46px;
+}
+.section__list-link {
+  margin-top: 8px;
+  background-color: white;
+  width: 100%;
+  display: block;
+  padding: 15px 15px 16px 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-decoration: none;
+  border: 1px solid #d5d5d5;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 107%;
+  width: 100%;
+}
+.section__list-item:hover > ul {
+  display: inherit;
+}
+nav ul ul li {
+  background-color: white;
+  float: none;
+  display: list-item;
+  position: relative;
+  z-index: 999;
+}
+.section__block-total {
+  padding: 40px;
+  width: 638px;
+  max-height: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+}
+.section__total-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 16px;
+}
+.section__total-cost {
+  padding: 16px 0;
+  border-top: 1px solid #e7e7e7;
+  display: flex;
+  justify-content: space-between;
+}
+.secton__cost-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+.section__cost-price {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: right;
+}
+.section__cost-block {
+}
+.section__cost__text {
+  width: 346px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 10px;
+}
+.delivery__form-btn {
+}
+.text__bold {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+/* Как мы работаем */
+.main {
+  padding-top: 100px;
+}
+.container {
+}
+.main__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 48px;
+}
+.main__block {
+  display: flex;
+  justify-content: space-between;
+}
+.main__block-item {
+  width: 353px;
+  background: #043c77;
+  padding: 30px;
+}
+.main__item-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.main__wrapper-img {
+  width: 64px;
+  height: 64px;
+}
+.main__wrapper-block {
+}
+.main__wrapper-text {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  color: white;
+  margin-bottom: 17px;
+}
+.main__wrapper-arrow {
+}
+.main__block-title {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.main__block-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+/* Преимущества сервиса */
+.aside {
+  background: #f9f9f9;
+  margin-top: 100px;
+  padding-top: 80px;
+}
+.aside__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  padding-top: 80px;
+  padding-bottom: 48px;
+  color: #000000;
+}
+.aside__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.aside__block-inner {
+  display: flex;
+  width: 353px;
+  height: 158px;
+  padding: 20px;
+  background: #ffffff;
+}
+.aside__inner-img {
+  width: 48px;
+  height: 48px;
+  margin-right: 19px;
+}
+.aside__inner-content {
+}
+.aside__content-title {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 12px;
+}
+.aside__content-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #565656;
+}
+/*  Сертификаты качества топлива  */
+.sertificats {
+  margin-top: 100px;
+  position: relative;
+}
+.mySwipers {
+  margin-top: 50px;
+  position: relative;
+}
+.swiper-wraper {
+}
+.swiper__block-sert {
+  background: #ffffff;
+  width: 227px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+}
+.swiper__sertificats {
+  width: 140px;
+  height: 181px;
+}
+.swiper-button {
+  position: absolute;
+  top: 10%;
+  display: flex;
+  width: 100px;
+  right: 0;
+  z-index: 999 !important;
+}
+.swiper-button-next {
+  position: absolute;
+  right: 0;
+  z-index: 1000;
+  color: black !important;
+  width: 32px !important;
+  height: 32px !important;
+}
+.swiper-button-prev {
+  position: absolute;
+  left: 90%;
+  z-index: 1000;
+  color: black !important;
+  width: 32px !important;
+  height: 32px !important;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-weight: 600;
+  font-size: 12px !important;
+  border: 1px solid #d5d5d5;
+  padding: 10px 12px;
+}
+/* Наши партнеры */
+.partners {
+  margin-top: 100px;
+}
+.swiper {
+  width: 100%;
+  height: 200px;
+}
+.swiper-slide {
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-pagination {
+}
+.partners__img {
+  align-items: center;
+  display: block;
+  width: 160px;
+  height: 100%;
+  object-fit: contain;
+}
